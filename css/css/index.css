@@ -4,4 +4,6 @@ body{
  color: brown
 }
 
-
+section{
+    display: inline;
+}
