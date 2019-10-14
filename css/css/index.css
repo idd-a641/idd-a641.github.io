@@ -54,6 +54,7 @@ height: 100;
         text-align: center;
         text-decoration: none;
         margin: 1em;
+        
     
       
         
@@ -95,10 +96,11 @@ ul{
     text-align: center
     
 }
-.nav{
+.menu{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     list-style: none;
+    background-color: rgb(238, 131, 69);
 }
 
 
@@ -190,6 +192,12 @@ ul{
      background-color:  rgb(238, 131, 69);
      color: white
  }
+ .smalltexts{
+    text-align: center;
+    font-size: .2em;
+    color: white;
+    margin: 1em
+ }
 
 /**************************Media*********************************
 ***************************************************************/
@@ -208,9 +216,9 @@ ul{
         }
         .design{ 
    
-            height: 25em;
+            
             height: auto;
-            width: 300px;
+            width: 300px ;
             margin-left:auto;
             margin-right: auto;
         }
@@ -259,9 +267,9 @@ ul{
          height: 50%;
          width: 100%;
         }
-        .nav{
+        .menu{
             display: grid;
-            grid-template-columns: 1fr 1fr 1fr ;
+            grid-template-columns: 1fr;
             list-style: none;
         }
         .footer{  height: 7.5em;
@@ -270,6 +278,167 @@ ul{
             margin-left:auto;
             margin-right: auto;}
 }
+@media screen and (min-width: 720px) {
+    
+    body{
+        text-align: center;
+        font-size:2em ;
+        font-family: 'Philosopher', sans-serif;
+      
+    }
+     
+        h1{
+            font-size: 1em;
+            font-family: 'Philosopher', sans-serif;
+        }
+        .design{ 
+   
+            height: 50em;
+            height: auto;
+            width: 700px;
+            margin-left:auto;
+            margin-right: auto;
+        }
+        .logo{
+           
+            height: auto;
+            width: 100px;
+            margin-left:auto;
+            margin-right: auto; 
+            text-align: center;
+            width: 100%;
+            height: 100%;
+        }
+        .ps3{height: 15em;
+            height: auto;
+            width: 350px;
+            margin-left:auto;
+            margin-right: auto;
+        position: relative;
+    }
+            
+    
+        .chess{height: 15em;
+            height: auto;
+            width:350px;
+            margin-left:auto;
+            margin-right: auto;
+            position: relative;
+        
+        }
+    
+        .lego{
+            height: auto;
+        
+            width: 350px;
+            margin-left:auto;
+            margin-right: auto;
+            position: relative;
+            text-align: right
+        }
+        .photos{
+            background-color: white;
+         display: grid;
+         grid-template-columns: 1fr;
+         text-align: center;
+         height: 50%;
+         width: 100%;
+        }
+        .menu{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr ;
+            list-style: none;
+        }
+        .footer{  height: 10em;
+            height: auto;
+            width: 50px;
+            margin-left:auto;
+            margin-right: auto;}
+}
+@media screen and (min-width: 1400px) {
+    
+    body{
+        text-align: center;
+        font-size:2em ;
+        font-family: 'Philosopher', sans-serif;
+      
+    }
+     
+        h1{
+            font-size: 1em;
+            font-family: 'Philosopher', sans-serif;
+        }
+        .design{ 
+   
+            height: 50em;
+            height: auto;
+            width: 1300px;
+            margin-left:auto;
+            margin-right: auto;
+        }
+        .logo{
+           
+            height: auto;
+            width: 250px;
+            margin-left:auto;
+            margin-right: auto; 
+            text-align: center;
+            width: 100%;
+            height: 100%;
+        }
+        .ps3{height: 25em;
+            height: auto;
+            width: 700px;
+            margin-left:auto;
+            margin-right: auto;
+        position: relative;
+    }
+            
+    
+        .chess{height: 25em;
+            height: auto;
+            width:700px;
+            margin-left:auto;
+            margin-right: auto;
+            position: relative;
+        
+        }
+    
+        .lego{
+            height: auto;
+        
+            width: 700px;
+            margin-left:auto;
+            margin-right: auto;
+            position: relative;
+            text-align: right
+        }
+        .photos{
+            background-color: white;
+         display: grid;
+         grid-template-columns: 1fr;
+         text-align: center;
+         height: 50%;
+         width: 100%;
+        }
+        .menu{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr ;
+            list-style: none;
+        }
+        .footer{  height: 10em;
+            height: auto;
+            width: 50px;
+            margin-left:auto;
+            margin-right: auto;}
+            .smalltexts{
+                text-align: center;
+                font-size: 0.5em;
+                color: white;
+                margin: 1em
+             }
+}
+
 
 
    
