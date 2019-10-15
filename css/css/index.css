@@ -6,6 +6,7 @@ bordersss: #5177CD  Light blue
 hover: #DB8198 blue rgb(38, 83, 180);
 */
 body{
+    
 
 color: black;
     font-size:  2em;
@@ -86,6 +87,8 @@ height: 100;
     width: 100%;
     height: 100%;
     background-color:  #1f66A4;
+    width: 100%;
+    
 }
       
 
@@ -124,7 +127,7 @@ ul{
   
 }
 .footer{  height: 7.5em;
-    height: auto;
+ 
     width: 75px;
     margin-left:auto;
     margin-right: auto;}
@@ -186,7 +189,14 @@ ul{
 
  }
  footer{ 
-     background-color:  rgb(238, 131, 69)  }
+     background-color:  rgb(238, 131, 69);
+    
+     position: absolute;
+     left: 0;
+     bottom: 100;
+     width: 100%;
+     text-align: center;
+    }
 
  .students{
      background-color:  rgb(238, 131, 69);
@@ -199,14 +209,28 @@ ul{
     margin: 1em
  }
 
+ .fotlink
+ {
+display: grid;
+grid-template-columns:  1fr 1fr 1fr;
+font-size: 0.3
+ }
+
+
+  
+    
+
+
 /**************************Media*********************************
 ***************************************************************/
  @media screen and (min-width: 320px) {
     
     body{
-        text-align: center;
         font-size:.7rem ;
         font-family: 'Philosopher', sans-serif;
+        text-align: center;
+        
+      
       
     }
      
@@ -271,12 +295,27 @@ ul{
             display: grid;
             grid-template-columns: 1fr;
             list-style: none;
+         
         }
-        .footer{  height: 7.5em;
-            height: auto;
+
+        .footicons{  height: auto;
+
             width: 25px;
             margin-left:auto;
             margin-right: auto;}
+            
+            .fotlink{
+                display: grid;
+                  grid-template-columns:  1fr 1fr 1fr;
+                
+                font-size:0.375em;
+                width: 100%; }
+                h4{
+                    color:black;
+                    font: 0.3
+                }
+           
+
 }
 @media screen and (min-width: 720px) {
     
@@ -284,6 +323,7 @@ ul{
         text-align: center;
         font-size:2em ;
         font-family: 'Philosopher', sans-serif;
+        margin: auto
       
     }
      
@@ -349,17 +389,24 @@ ul{
             grid-template-columns: 1fr 1fr 1fr ;
             list-style: none;
         }
-        .footer{  height: 10em;
-            height: auto;
-            width: 50px;
-            margin-left:auto;
-            margin-right: auto;}
+        .fotlink{
+            display: grid;
+              grid-template-columns:  1fr 1fr 1fr;
+            font-size:0.375em;
+            width: 100%
+}
+      
+            .footicons{  height:auto;
+ 
+                width: 35px;
+                margin-left:auto;
+                margin-right: auto;}
 }
 @media screen and (min-width: 1400px) {
     
     body{
         text-align: center;
-        font-size:2em ;
+        font-size: 1.5em ;
         font-family: 'Philosopher', sans-serif;
       
     }
@@ -380,8 +427,7 @@ ul{
            
             height: auto;
             width: 250px;
-            margin-left:auto;
-            margin-right: auto; 
+           
             text-align: center;
             width: 100%;
             height: 100%;
@@ -423,21 +469,50 @@ ul{
         }
         .menu{
             display: grid;
-            grid-template-columns: 1fr 1fr 1fr ;
+            grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr ;
             list-style: none;
         }
-        .footer{  height: 10em;
-            height: auto;
-            width: 50px;
+        footer{ height: auto;
+            width: auto;
             margin-left:auto;
-            margin-right: auto;}
+            margin-right: auto;
+              position: absolute;
+              left: 0;
+              bottom: 100;
+              width: 100%;
+              text-align: center;
+        }
+          
+        
             .smalltexts{
                 text-align: center;
-                font-size: 0.5em;
+                font-size: 0.1em;
                 color: white;
-                margin: 1em
+                margin: 0.5em
              }
+        .fotlink{
+                display: grid;
+                  grid-template-columns:  1fr 1fr 1fr;
+                
+                font-size:0.375em;
+                width: 100%
+ }
+ .footicons{  height:auto;
+ 
+    width: 50px;
+    margin-left:auto;
+    margin-right: auto;}
+   
+    .links{
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        margin: 1.5em;
 }
+
+
+}
+
 
 
 
