@@ -212,12 +212,23 @@ ul{
  .fotlink
  {
 display: grid;
-grid-template-columns:  1fr 1fr 1fr;
+grid-template-columns:  1fr 1fr 1fr 1fr;
 font-size: 0.3
  }
 
 
-  
+.footlist{
+    margin: 1em;
+}
+.footlist1 {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr
+}
+.footlist3 {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 
+}
+
     
 
 
@@ -492,7 +503,7 @@ font-size: 0.3
              }
         .fotlink{
                 display: grid;
-                  grid-template-columns:  1fr 1fr 1fr;
+                  grid-template-columns:  1fr 1fr 1fr 1fr;
                 
                 font-size:0.375em;
                 width: 100%
